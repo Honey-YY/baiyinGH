@@ -44,8 +44,8 @@ Skill 是给 AI Agent 扩展能力的「能力包」——一个文件夹，里�
 ### 方式二：命令行安装（适合开发者）
 
 ```bash
-git clone https://github.com/<你的用户名>/<本仓库名>.git
-cd <本仓库名>
+git clone https://github.com/Honey-YY/baiyinGH.git
+cd baiyinGH
 
 # macOS / Linux / Git Bash
 bash install.sh
