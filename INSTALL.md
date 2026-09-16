@@ -254,7 +254,8 @@ Chromium 136 之后，命令行直开调试端口必须配一个**全新的 `--u
 web-access/
 ├── SKILL.md                  主入口。原版正文 + 三处运维补充
 ├── INSTALL.md                本文件
-├── README.md                 上游原版 README（含 GitHub 来源信息）
+├── README.md                 本包说明（能力、安装、常见问题）
+├── LICENSE                   MIT 全文 + 第三方内容声明
 ├── scripts/
 │   ├── cdp-proxy.mjs         核心：常驻 HTTP 服务，把 CDP 包成 REST API
 │   ├── check-deps.mjs        前置检查：Node / 浏览器端口 / proxy 状态
@@ -266,6 +267,7 @@ web-access/
 └── references/
     ├── cdp-api.md            CDP API 详细参考
     ├── migration-2.5.3.md    上游迁移说明
+    ├── upstream-readme.md    上游原版 README（含上游安装方式与版本记录）
     ├── ops-pitfalls.md       ★ 新增：27 条实测坑与对策
     ├── ops-env-adaptation.md ★ 新增：执行环境适配与替代写法
     ├── ops-capture-fidelity.md ★ 新增：保真采集链路
@@ -288,6 +290,6 @@ web-access/
 
 ## 授权
 
-原版 web-access 采用 **MIT 许可**，允许自由使用、修改与再分发，请保留原作者信息（见 `README.md` 与 `SKILL.md` 的 frontmatter）。
+原版 web-access 采用 **MIT 许可**，允许自由使用、修改与再分发，请保留原作者信息（见 `LICENSE`、`README.md` 与 `references/upstream-readme.md`）。
 
 本包新增的三份 `ops-*` 文档与 `INSTALL.md` 为实战补充，以 MIT 许可发布，作者：**白音**，随本包一并分发。

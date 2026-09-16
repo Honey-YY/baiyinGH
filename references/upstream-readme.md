@@ -1,3 +1,10 @@
+> **本文档是上游开源项目 web-access 的原始 README，随本仓库一并收录以保留完整来源与用法说明。**
+>
+> - 上游项目：https://github.com/eze-is/web-access ｜ 作者：一泽 Eze ｜ MIT 许可
+> - 文中的安装命令（`npx skills add eze-is/web-access` 等）指向**上游原仓库**，安装的是原版；
+>   若要使用本仓库这份「原版 + 实战运维补充」的版本，请看本仓库根目录的 [`README.md`](../README.md)。
+> - 为适配本仓库的单技能目录结构，本文仅将末尾一处相对链接由 `./SKILL.md` 修正为 `../SKILL.md`，**正文内容未作任何改动**。
+
 <div align="right">
   <details>
     <summary>🌐 Language</summary>
@@ -197,7 +204,7 @@ Proxy 会自动追踪通过 `/new` 创建的 tab，闲置 15 分钟后自动关�
 
 > Skill = 哲学 + 技术事实，不是操作手册。讲清 tradeoff 让 AI 自己选，不替它推理。
 
-详见 [SKILL.md](./SKILL.md) 中的浏览哲学部分。
+详见 [SKILL.md](../SKILL.md) 中的浏览哲学部分。
 
 ## License
 

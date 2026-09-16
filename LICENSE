@@ -30,23 +30,28 @@ SOFTWARE.
 一、第三方部分（版权归原作者所有）
 --------------------------------------------------------------------------------
 
-位置：skills/web-access/ 下的绝大部分文件
+位置：本仓库根目录下的技能本体（除「二」中列出的新增文件外，其余均为上游内容）
 
-来源项目：web-access
+来源项目：web-access v2.5.4
 作者：一泽 Eze
 仓库：https://github.com/eze-is/web-access
 官网：https://web-access.eze.is
 许可：MIT（原作者于该项目的 README.md「License」章节声明）
 
 具体包含：
-  - skills/web-access/SKILL.md
-  - skills/web-access/README.md
-  - skills/web-access/scripts/（全部）
-  - skills/web-access/templates/
-  - skills/web-access/references/cdp-api.md
-  - skills/web-access/references/migration-2.5.3.md
+  - SKILL.md
+  - scripts/（全部 5 个脚本）
+  - templates/
+  - references/cdp-api.md
+  - references/migration-2.5.3.md
+  - references/upstream-readme.md（上游项目的 README.md）
 
-说明：上述内容按 MIT 许可原样收录，未作实质性修改。
+说明：上述内容按 MIT 许可原样收录，未作实质性修改。仅有两处非内容性调整：
+  ① 上游 README.md 自仓库根目录移至 references/upstream-readme.md，并在文首增补一段
+     来源说明，以免读者误将其当作本仓库的说明文档；
+  ② 该文档末尾一处相对链接由 ./SKILL.md 修正为 ../SKILL.md。
+  SKILL.md 的上游正文逐字未改，仅新增三处运维补充（前置检查、启动、References 索引），
+  并在 frontmatter 的 metadata 中增补 packaged / packager / packager_repo 字段。
 原始版权与署名归原作者一泽 Eze 所有。如原作者对本仓库的收录方式有异议，
 请联系本仓库维护者（白音），将立即调整或移除。
 
@@ -54,12 +59,13 @@ SOFTWARE.
 二、本项目新增部分（版权归本仓库作者：白音）
 --------------------------------------------------------------------------------
 
-  - skills/web-access/INSTALL.md
-  - skills/web-access/references/ops-pitfalls.md
-  - skills/web-access/references/ops-env-adaptation.md
-  - skills/web-access/references/ops-capture-fidelity.md
-  - skills/web-access/references/site-patterns/（全部）
-  - 仓库根目录：README.md、install.sh、install.ps1、scripts/build-release.mjs
+  - INSTALL.md
+  - references/ops-pitfalls.md
+  - references/ops-env-adaptation.md
+  - references/ops-capture-fidelity.md
+  - references/site-patterns/（全部）
+  - 仓库组织文件：README.md、LICENSE、package.json、install.sh、install.ps1、
+    tools/build-release.mjs、.gitattributes、.gitignore
 
 上述内容由 白音 在实战部署验证后撰写，以 MIT 许可发布。
 Copyright (c) 2026 白音

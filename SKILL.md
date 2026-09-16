@@ -9,6 +9,8 @@ metadata:
   author: 一泽Eze
   version: "2.5.4"
   packaged: "2026-09-16"
+  packager: 白音
+  packager_repo: https://github.com/Honey-YY/web-access-skill
   packaged_note: 本包在原版基础上增补实战运维补充文档（ops-*.md）与安装说明（INSTALL.md），原版内容未作删改
 ---
 
