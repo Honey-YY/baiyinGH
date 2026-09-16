@@ -144,9 +144,12 @@ Brave、Vivaldi、Opera、360 极速、QQ 浏览器等虽然同为 Chromium 内�
 
 本仓库以 **MIT 许可**发布，可自由使用、修改、分发。
 
+- **维护者**：白音
+- **许可**：[MIT](LICENSE)
+
 **本项目基于开源项目 [web-access](https://github.com/eze-is/web-access)（作者：[一泽 Eze](https://github.com/eze-is)，MIT 许可）整理与增补。**
 
-`skills/web-access/` 下的核心脚本与文档来自该项目，版权归原作者所有；新增的实战避坑文档与仓库组织文件由本仓库维护者撰写。详见 [LICENSE](LICENSE)。
+`skills/web-access/` 下的核心脚本与文档来自该项目，版权归原作者所有；新增的实战避坑文档与仓库组织文件由 **白音** 撰写。详见 [LICENSE](LICENSE)。
 
 如果这个项目对你有帮助，建议也给原作者点个 Star。
 

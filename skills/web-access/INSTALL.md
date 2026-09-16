@@ -2,6 +2,7 @@
 
 > 本包是在 [web-access](https://github.com/eze-is/web-access) v2.5.4（作者「一泽Eze」，MIT 许可）基础上，**增补实战运维文档后**的完整可分发版本。
 > 原版脚本与文档未作删改；新增内容见文末「包内文件说明」。
+> 增补与整理：**白音**
 
 ---
 
@@ -289,4 +290,4 @@ web-access/
 
 原版 web-access 采用 **MIT 许可**，允许自由使用、修改与再分发，请保留原作者信息（见 `README.md` 与 `SKILL.md` 的 frontmatter）。
 
-本包新增的三份 `ops-*` 文档与 `INSTALL.md` 为实战补充，随本包一并分发。
+本包新增的三份 `ops-*` 文档与 `INSTALL.md` 为实战补充，以 MIT 许可发布，作者：**白音**，随本包一并分发。
