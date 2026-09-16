@@ -1,0 +1,10 @@
+{
+  "name": "ai-skill-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "给 WorkBuddy / Claude Code 等 AI Agent 使用的实用技能（Skill）集合",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build-release.mjs"
+  }
+}
