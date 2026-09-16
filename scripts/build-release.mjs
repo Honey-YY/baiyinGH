@@ -6,7 +6,9 @@
  *   node scripts/build-release.mjs
  *
  * 输出:
- *   dist/ai-skill-library-v<版本号>.zip
+ *   dist/baiyinGH-skills-v<版本号>.zip
+ *
+ *   包名与 GitHub 仓库名保持一致，读者下载后能一眼对上是哪个仓库的产物。
  *
  * 说明:
  *   压缩包内每个技能文件夹位于根层，读者解压后可直接拖进 skills 目录。
@@ -25,7 +27,8 @@ const DIST_DIR = path.join(ROOT, 'dist');
 // ---------- 读版本号 ----------
 const pkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
 const VERSION = pkg.version;
-const OUT = path.join(DIST_DIR, `${pkg.name}-v${VERSION}.zip`);
+const RELEASE_NAME = 'baiyinGH-skills';
+const OUT = path.join(DIST_DIR, `${RELEASE_NAME}-v${VERSION}.zip`);
 
 console.log('构建分发包');
 console.log('  仓库根目录: ' + ROOT);
